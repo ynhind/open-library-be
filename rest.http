@@ -3,10 +3,10 @@ Content-Type: application/json
 
 {
     "user": {
-        "email": "test@gmail.com",
+        "email": "phamkiet3@gmail.com",
         "password": "password",
-        "first_name": "Will",
-        "last_name": "Smith",
+        "first_name": "Kiet3",
+        "last_name": "Daminh",
         "role": "MEMBER"
     }
 }
@@ -16,8 +16,17 @@ POST http://localhost:3001/login
 Content-Type: application/json
 
 {
-    "email": "test@gmail.com",
+    "email": "sinzuki1007@gmail.com",
     "password": "password"
+}
+
+###
+POST http://localhost:3001/email_verification
+Content-Type: application/json
+
+{
+    "email": "sinzuki1007@gmail.com",
+    "token": "de1d2f039dfcdf25"
 }
 
 

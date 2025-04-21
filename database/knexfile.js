@@ -5,7 +5,7 @@
  */
 module.exports = {
 
-  dev: {
+  development: {
     client: 'pg',
     connection: 'postgres://postgres:10072004@localhost/openlibrary',
     migrations: {
