@@ -6,6 +6,10 @@ const cors = require('cors');
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+app.use(cors({
+    origin: 'http://localhost:8081',
+    credentials: true,
+}));
 
 app.use('/', require('./src/routes/auth.route'));
 app.use(require('./src/middleware/error.middleware').all);
