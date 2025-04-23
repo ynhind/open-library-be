@@ -56,7 +56,7 @@ const postRegister = async (req, res, next) => {
     } catch (e) {
         return next(createError({
             status: GENERAL_ERROR,
-            message: e,
+            message: 'Internal Server Error',
         }));
     }
 };

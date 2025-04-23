@@ -2,6 +2,8 @@ import {createWebHistory, createRouter} from 'vue-router';
 import MyHome from '../components/MyHome.vue';
 import UserRegistration from '../components/UserRegistration.vue';
 import UserLogin from '../components/UserLogin.vue';
+import EmailVerification from '../components/EmailVerification';
+
 
 const routes = [
     {
@@ -18,6 +20,11 @@ const routes = [
         name: 'Registration',
         path: '/registration',
         component: UserRegistration
+    },
+    {
+        name: 'VerifyEmail',
+        path: '/verify-email',
+        component: EmailVerification
     }
 ];
 

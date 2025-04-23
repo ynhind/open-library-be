@@ -1,6 +1,6 @@
 <template>
     <div class="row mt-5">
-        <div class="col-md-12 m-auto">
+        <div class="col-md-10 m-auto">
             <div class="card card-body text-center">
                 <h1>Login</h1>
                 <form @submit.prevent="login()">
@@ -15,7 +15,7 @@
                     <button type="submit" class="btn btn-success float-left">Submit</button>
                 </form>
                 <p class="lead mt-4">
-                    Go to Home ? <a href="/">Home</a>
+                    Go to Home? <a href="/">Home</a>
                 </p>
             </div>
         </div>
